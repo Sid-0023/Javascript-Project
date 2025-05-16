@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Stone, Paper, Scissors</h1>
+
+      <div class="choices">
+        <button class="choice" id="stone">Stone✊</button>
+        <button class="choice" id="paper">Paper🫱</button>
+        <button class="choice" id="scissors">Scissors✌️</button>
+      </div>
+
+      <div class="result">
+        <h2 id="user-choice">Your Choice:<span id="user-ans"></span></h2>
+        <h2 id="computer-choice">
+          Computer's Choice:<span id="user-com"></span>
+        </h2>
+        <h2 id="outcome">Result:</h2>
+      </div>
+
+      <div class="score">
+        <p id="user-score">Your Score: 0</p>
+        <p id="computer-score">Computer Score: 0</p>
+      </div>
+
+      <div id="winner-gif" style="display: none">
+       <img src="https://media.giphy.com/media/111ebonMs90YLu/giphy.gif" alt="Winner" />
+       <button id="close-winner-gif">Close</button>
+        </div>
+        <div id="loser-gif" style="display: none">
+         <img src="https://media.tenor.com/IyNb1v-ADZAAAAAi/pepe-loser.gif" alt="Winner" />
+        <button id="close-loser-gif">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
